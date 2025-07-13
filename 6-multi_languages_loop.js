@@ -1,4 +1,3 @@
-let myArray = ["C is fun", "Python is cool", "Javascript is amazing"]
-     for(let i = 0; i < myArray.length; i++){
-        console.log(myArray[i])
-     }
+
+     const lines = ["C is fun", "Python is cool", "JavaScript is amazing"];
+lines.forEach(line => console.log(line));
